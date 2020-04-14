@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/highlights": "~0.1",
+        "getpop/highlights": "dev-master",
         "getpop/content-wp": "~0.1"
     },
     "require-dev": {
