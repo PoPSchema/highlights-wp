@@ -25,7 +25,9 @@ composer require getpop/highlights-wp
 Initialize the component:
 
 ``` php
-\PoP\HighlightsWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\HighlightsWP\Component::class,
+]);
 ```
 
 ## Standards
