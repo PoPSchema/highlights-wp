@@ -16,8 +16,8 @@ class ServiceConfiguration
         ContainerBuilderUtils::injectValuesIntoService(
             'instance_manager',
             'overrideClass',
-            \PoP\Highlights\TypeResolverPickers\Optional\HighlightContentEntityTypeResolverPicker::class,
-            \PoP\HighlightsWP\TypeResolverPickers\Overrides\HighlightContentEntityTypeResolverPicker::class
+            \PoP\Highlights\TypeResolverPickers\Optional\HighlightCustomPostTypeResolverPicker::class,
+            \PoP\HighlightsWP\TypeResolverPickers\Overrides\HighlightCustomPostTypeResolverPicker::class
         );
     }
 }
