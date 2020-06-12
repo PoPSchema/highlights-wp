@@ -20,7 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/highlights": "dev-master",
-        "getpop/custom-posts-wp": "dev-master"
+        "getpop/customposts-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.0",
