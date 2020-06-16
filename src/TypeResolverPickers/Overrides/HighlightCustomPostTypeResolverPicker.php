@@ -11,7 +11,7 @@ class HighlightCustomPostTypeResolverPicker extends \PoP\Highlights\TypeResolver
 {
     use NoCastCustomPostTypeResolverPickerTrait;
 
-    public function getPostType(): string
+    public function getCustomPostType(): string
     {
         return \POP_ADDHIGHLIGHTS_POSTTYPE_HIGHLIGHT;
     }
