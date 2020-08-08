@@ -17,7 +17,7 @@ Implementation for WordPress of contracts from package "Highlights"
 Via Composer
 
 ``` bash
-composer require getpop/highlights-wp
+composer require pop-schema/highlights-wp
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\HighlightsWP\Component::class,
+    \PoPSchema\HighlightsWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/highlights-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/highlights-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/highlights-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/highlights-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/highlights-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/highlights-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/highlights-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/highlights-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/highlights-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/highlights-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/highlights-wp
-[link-travis]: https://travis-ci.org/getpop/highlights-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/highlights-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/highlights-wp
-[link-downloads]: https://packagist.org/packages/getpop/highlights-wp
+[link-packagist]: https://packagist.org/packages/pop-schema/highlights-wp
+[link-travis]: https://travis-ci.org/pop-schema/highlights-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/highlights-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/highlights-wp
+[link-downloads]: https://packagist.org/packages/pop-schema/highlights-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

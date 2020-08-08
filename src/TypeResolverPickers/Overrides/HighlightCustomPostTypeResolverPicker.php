@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PoP\HighlightsWP\TypeResolverPickers\Overrides;
+namespace PoPSchema\HighlightsWP\TypeResolverPickers\Overrides;
 
-use PoP\CustomPostsWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
-use PoP\CustomPostsWP\TypeResolverPickers\NoCastCustomPostTypeResolverPickerTrait;
+use PoPSchema\CustomPostsWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
+use PoPSchema\CustomPostsWP\TypeResolverPickers\NoCastCustomPostTypeResolverPickerTrait;
 
-class HighlightCustomPostTypeResolverPicker extends \PoP\Highlights\TypeResolverPickers\Optional\HighlightCustomPostTypeResolverPicker implements CustomPostTypeResolverPickerInterface
+class HighlightCustomPostTypeResolverPicker extends \PoPSchema\Highlights\TypeResolverPickers\Optional\HighlightCustomPostTypeResolverPicker implements CustomPostTypeResolverPickerInterface
 {
     use NoCastCustomPostTypeResolverPickerTrait;
 

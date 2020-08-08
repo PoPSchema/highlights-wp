@@ -1,4 +1,4 @@
 services:
     highlight_type_api:
-        class: \PoP\HighlightsWP\TypeAPIs\HighlightTypeAPI
+        class: \PoPSchema\HighlightsWP\TypeAPIs\HighlightTypeAPI
         public: true

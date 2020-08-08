@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PoP\HighlightsWP;
+namespace PoPSchema\HighlightsWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
-use PoP\HighlightsWP\Config\ServiceConfiguration;
+use PoPSchema\HighlightsWP\Config\ServiceConfiguration;
 
 /**
  * Initialize component
@@ -19,8 +19,8 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Highlights\Component::class,
-            \PoP\CustomPostsWP\Component::class,
+            \PoPSchema\Highlights\Component::class,
+            \PoPSchema\CustomPostsWP\Component::class,
         ];
     }
 
